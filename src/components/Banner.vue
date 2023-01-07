@@ -7,6 +7,11 @@
                 Aliquam gravida libero nec neque placerat pretium. Duis a hendrerit turpis. Vestibulum lacus dui, volutpat sed euismod eu, bibendum ac arcu. 
             </p>
             <a href="">Ver más</a>
+            <div class="buttons-banner">
+                <button class="banner-btn-1"></button>
+                <button class="banner-btn-2"></button>
+                <button class="banner-btn-3"></button>
+            </div>
         </div>
         
     </section>
@@ -30,6 +35,7 @@ export default {
     }
 
     #banner .center{
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -54,5 +60,29 @@ export default {
 
     #banner a:hover{
         background: var(--color-secundario);
+    }
+
+    .buttons-banner{
+        position: absolute;
+        bottom: 3rem;
+        left: 45rem;
+        width: 12rem;
+        height: 5rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .buttons-banner > button{
+        width: 3rem;
+        height: 3rem;
+        background: rgba(152, 152, 152,0.8);
+        cursor: pointer;
+        border-radius: 50%;
+        border: .2rem outset var(--color);
+    }
+
+    .buttons-banner > button:hover{
+        background: rgb(203, 203, 203,0.8);
     }
 </style>
