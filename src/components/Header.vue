@@ -5,8 +5,8 @@
 
             <nav id="navbar">
                 <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Nosotros</a></li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#about">Nosotros</a></li>
                     <li><a href="">Precios</a></li>
                     <li><a href="">Entrenadores</a></li>
                     <li><a href="">Contacto</a></li>

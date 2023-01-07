@@ -1,17 +1,20 @@
 <template>
   <AppHeader></AppHeader>
   <AppBanner></AppBanner>
+  <AppAbout></AppAbout>
 </template>
 
 <script>
 import AppHeader from './components/Header.vue'
 import AppBanner from './components/Banner.vue'
+import AppAbout from './components/About.vue'
 
 export default {
   name: 'App',
   components: {
     AppHeader,
-    AppBanner
+    AppBanner,
+    AppAbout
   }
 }
 </script>
@@ -25,6 +28,7 @@ export default {
     box-sizing: border-box;
     transition: all 300ms;
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
   }
 
   :root{
