@@ -2,19 +2,25 @@
   <AppHeader></AppHeader>
   <AppBanner></AppBanner>
   <AppAbout></AppAbout>
+  <AppImc></AppImc>
+  <AppPrice></AppPrice>
 </template>
 
 <script>
 import AppHeader from './components/Header.vue'
 import AppBanner from './components/Banner.vue'
 import AppAbout from './components/About.vue'
+import AppImc from './components/IMC.vue'
+import AppPrice from './components/Prices.vue'
 
 export default {
   name: 'App',
   components: {
     AppHeader,
     AppBanner,
-    AppAbout
+    AppAbout,
+    AppImc,
+    AppPrice
   }
 }
 </script>
@@ -23,7 +29,7 @@ export default {
   @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
   *{
-    margin: 0;
+    margin: 0;   
     padding: 0;
     box-sizing: border-box;
     transition: all 300ms;
@@ -31,13 +37,19 @@ export default {
     scroll-behavior: smooth;
   }
 
-  :root{
-    --color: rgb(39, 140, 30);
-    --color-secundario: rgb(55, 185, 43);
+  :root{ 
+    --color: #0bbb05;
+    --color-secundario: #9bff98;
   }
 
   html{
-    font-size: 63.5%;
+   font-size: 63.5%;
+  }
+
+  body{
+    background-image: url('./assets/img/Body.jpg');
+    background-size: 100%;
+    object-fit: cover;
   }
 
  .center{
@@ -48,6 +60,6 @@ export default {
 
  h1{
   font-size: 4rem;
-  color: #fff;
+  color: #ffffff;
  }
 </style>

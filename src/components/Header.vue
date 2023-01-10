@@ -7,7 +7,7 @@
                 <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#about">Nosotros</a></li>
-                    <li><a href="">Precios</a></li>
+                    <li><a href="#prices">Precios</a></li>
                     <li><a href="">Entrenadores</a></li>
                     <li><a href="">Contacto</a></li>
                 </ul>
@@ -60,7 +60,7 @@ export default {
     }
 
     #navbar ul li{
-       line-height: 7rem;
+       line-height: 3rem;
        font-size: 1.5rem;
        list-style: none;
        padding: 0 1rem;

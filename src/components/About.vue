@@ -30,7 +30,7 @@
     #about{
         width: 100%;
         height: 55rem;
-        background: #000;
+        background: #000000;
     }
 
     #about .center{
@@ -83,7 +83,7 @@
 
     .about-info h2{
         font-size: 3rem;
-        color: #fff;
+        color: #ffffff;
     }
 
     .about-info h3{
@@ -94,6 +94,6 @@
     .about-info p{
         text-align: justify;
         font-size: 2rem;
-        color: #fff;
+        color: #ffffff;
     }
 </style>
