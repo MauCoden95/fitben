@@ -1,5 +1,5 @@
 <template>
-    <section id="footer">
+    <footer id="footer">
        <div class="center">
             <div class="footer-div">
                 <h4>Navegacion</h4>
@@ -30,7 +30,7 @@
                 <ul>
                     <li><i class="fas fa-phone"></i> (54 11) 4444-4444</li>
                     <li><i class="fas fa-phone"></i> (54) 15-9999-0000</li>
-                    <li><i class="fas fa-map-marker"></i> Av. Lorem Ipsum 100</li>
+                    <li><i class="fas fa-map-marker"></i> Av. Lorem Ipsum 100 - Buenos Aires</li>
                     <li><i class="fas fa-envelope"></i> fitben@email.com</li>
                     <li class="li-social">
                         <a href=""><i class="fab fa-linkedin"></i></a>
@@ -41,7 +41,7 @@
                 </ul>
             </div>
        </div>
-    </section>
+    </footer>
 </template>
 
 

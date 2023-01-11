@@ -8,7 +8,7 @@
 
             <div class="price-div-basic">
                  <h2>Plan Basic</h2>
-                 <h3>$ <span>3000</span> / Mes</h3>
+                 <h3>$ <span>{{ basic }}</span> / Mes</h3>
                  <ul>
                     <li><i class="fas fa-check"></i> Entrenador Personal</li>
                     <li><i class="fas fa-check"></i> Una sesión por semana</li>
@@ -23,7 +23,7 @@
 
             <div class="price-div-pro">
                 <h2>Plan Pro</h2>
-                 <h3>$ <span>6000</span> / Mes</h3>
+                 <h3>$ <span>{{ pro }}</span> / Mes</h3>
                  <ul>
                     <li><i class="fas fa-check"></i> Entrenador Personal</li>
                     <li><i class="fas fa-check"></i> Tres sesiones por semana</li>
@@ -43,7 +43,7 @@
 
              <div class="price-div-pro">
                 <h2>Plan Ultimate</h2>
-                 <h3>$ <span>9000</span> / Mes</h3>
+                 <h3>$ <span>{{ ultimate }}</span> / Mes</h3>
                  <ul>
                     <li><i class="fas fa-check"></i> Entrenador Personal</li>
                     <li><i class="fas fa-check"></i> Tres sesiones por semana</li>
@@ -64,7 +64,8 @@ export default {
     name: 'AppPrices',
     props: {
         basic: Number,
-        pro: Number
+        pro: Number,
+        ultimate: Number
     }
 }
 </script>
