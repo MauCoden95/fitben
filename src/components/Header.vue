@@ -8,8 +8,8 @@
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#about">Nosotros</a></li>
                     <li><a href="#prices">Precios</a></li>
-                    <li><a href="">Entrenadores</a></li>
-                    <li><a href="">Contacto</a></li>
+                    <li><a href="#trainers">Entrenadores</a></li>
+                    <li><a href="#newsletter">Newsletter</a></li>
                 </ul>
             </nav>
         </div>
@@ -60,7 +60,7 @@ export default {
     }
 
     #navbar ul li{
-       line-height: 3rem;
+       line-height: 7rem;
        font-size: 1.5rem;
        list-style: none;
        padding: 0 1rem;

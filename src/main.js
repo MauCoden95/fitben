@@ -51,10 +51,33 @@ btn_imc.addEventListener('click', () =>{
 
     let imc = Math.ceil(ipt_weight / Math.pow(height_mts,2));
 
+    // switch (imc) {
+    //     case imc < 19:
+    //         span_imc.innerHTML = `Su imc es de ${imc} y su condición es Peso bajo`;
+    //         break;
+    
+    //     case imc >= 19 && imc < 25:
+    //         span_imc.innerHTML = `Su imc es de ${imc} y su condición es Peso Normal`;
+    //         break;
+
+    //     case imc >= 25 && imc < 30:
+    //         span_imc.innerHTML = `Su imc es de ${imc} y su condición es Sobrepeso`;
+    //         break;
+
+    //     case imc >= 30 && imc < 40:
+    //         span_imc.innerHTML = `Su imc es de ${imc} y su condición es Obesidad`;
+    //         break;
+
+    //     case imc >= 40:
+    //         span_imc.innerHTML = `Su imc es de ${imc} y su condición es Obesidad Extrema`;
+    //         break;
+
+    //     default:
+    //         break;
+    // }
     span_imc.innerHTML = `Su imc es de ${imc}`;
 
-    console.log(ipt_height);
-    console.log(ipt_weight);
+    
 
 });
 

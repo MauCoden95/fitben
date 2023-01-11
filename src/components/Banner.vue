@@ -50,7 +50,7 @@ export default {
 
     #banner a{
         display: block;
-        background: var(--color);
+        background: linear-gradient(130deg, var(--color) 93%, transparent 90%);
         text-decoration: none;
         margin-top: 2rem;
         color: #000;
@@ -59,7 +59,7 @@ export default {
     }
 
     #banner a:hover{
-        background: var(--color-secundario);
+        background: linear-gradient(130deg, var(--color-secundario) 93%, transparent 90%);
     }
 
     .buttons-banner{

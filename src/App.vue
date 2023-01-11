@@ -4,6 +4,9 @@
   <AppAbout></AppAbout>
   <AppImc></AppImc>
   <AppPrice></AppPrice>
+  <AppTrainers></AppTrainers>
+  <AppNewsletter></AppNewsletter>
+  <AppFooter></AppFooter>
 </template>
 
 <script>
@@ -12,6 +15,9 @@ import AppBanner from './components/Banner.vue'
 import AppAbout from './components/About.vue'
 import AppImc from './components/IMC.vue'
 import AppPrice from './components/Prices.vue'
+import AppTrainers from './components/Trainers.vue'
+import AppNewsletter from './components/Newsletter.vue'
+import AppFooter from './components/Footer.vue'
 
 export default {
   name: 'App',
@@ -20,7 +26,10 @@ export default {
     AppBanner,
     AppAbout,
     AppImc,
-    AppPrice
+    AppPrice,
+    AppTrainers,
+    AppNewsletter,
+    AppFooter
   }
 }
 </script>

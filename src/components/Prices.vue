@@ -72,7 +72,7 @@ export default {
 <style>
     #prices{
         width: 100%;
-        min-height: 60rem;
+        min-height: 70rem;
         background: hsl(0, 0%, 0%);
         padding: 1px;
     }
@@ -91,7 +91,7 @@ export default {
         margin-top: 2rem;
     }
 
-    .center{
+    #prices .center{
         padding: 2rem;
         display: flex;
         align-items: center;
