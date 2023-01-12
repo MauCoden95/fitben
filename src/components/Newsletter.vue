@@ -24,7 +24,7 @@
     #newsletter{
         width: 100%;
         height: 30rem;
-        background: rgb(202, 123, 20, 0.6);
+        background: rgba(39, 197, 18, 0.6);
         padding: 1px;
     }
 
