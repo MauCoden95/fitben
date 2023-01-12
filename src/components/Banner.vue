@@ -1,5 +1,5 @@
 <template>
-    <section id="banner">
+    <section id="banner" class="background1">
         <div class="center">
             <h1>Ser fuerte, estar en forma es nuestro lema</h1>
             <p>
@@ -29,9 +29,20 @@ export default {
     #banner{
         width: 100%;
         height: 55rem;
-        background-image: url('../assets/img/Banner.jpg');
         object-fit: cover;
         background-size: 100%;
+    }
+
+    .background1{
+        background-image: url('../assets/img/Banner.jpg');
+    }
+
+    .background2{
+        background-image: url('../assets/img/Banner2.jpg');
+    }
+
+     .background3{
+        background-image: url('../assets/img/Banner3.jpg');
     }
 
     #banner .center{

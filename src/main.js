@@ -13,25 +13,36 @@ const banner_btn3 = document.querySelector('.banner-btn-3');
 
 
 banner_btn1.addEventListener('click', () => {
-    banner.style.backgroundImage = "url('./assets/img/Banner.jpg')";
+    banner.classList.remove('background2');
+    banner.classList.remove('background3');
+    banner.classList.add('background1');
+
+
     banner_btn1.style.background = "rgb(55, 185, 43)";
     banner_btn2.style.background = "rgba(152, 152, 152)";
     banner_btn3.style.background = "rgba(152, 152, 152)";
 });
 
 banner_btn2.addEventListener('click', () => {
-    banner.style.backgroundImage = "url('./assets/img/Banner2.jpg')";
+    banner.classList.remove('background1');
+    banner.classList.remove('background3');
+    banner.classList.add('background2');
+
     banner_btn2.style.background = "rgb(55, 185, 43)";
     banner_btn1.style.background = "rgba(152, 152, 152)";
     banner_btn3.style.background = "rgba(152, 152, 152)";
 });
 
 banner_btn3.addEventListener('click', () => {
-    banner.style.backgroundImage = "url('./assets/img/Banner3.jpg')";
+    banner.classList.remove('background1');
+    banner.classList.add('background3');
+    banner.classList.remove('background2');
+
     banner_btn1.style.background = "rgba(152, 152, 152)";
     banner_btn2.style.background = "rgba(152, 152, 152)";
     banner_btn3.style.background = "rgb(55, 185, 43)";
 });
+
 
 
 
