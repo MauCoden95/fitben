@@ -32,14 +32,15 @@
 
     #imc .center{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
+        background: rgb(175, 175, 175, 0.9);
 }
 
     .calc-imc{
-        width: 50%;
+        width: 40%;
         height: 100%;
-        background: rgb(175, 175, 175, 0.9);
+        
     }
 
     .calc-imc h2{
@@ -84,8 +85,8 @@
     }
 
     #imc img{
-        width: 50%;
+        width: 45%;
         height: 100%;
-        background: rgb(175, 175, 175, 0.9);
+        
     }
 </style>

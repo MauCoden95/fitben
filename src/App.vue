@@ -47,8 +47,8 @@ export default {
   }
 
   :root{ 
-    --color: #0bbb05;
-    --color-secundario: #9bff98;
+    --color: #ca7b14;
+    --color-secundario: #faae4b;
   }
 
   html{

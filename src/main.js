@@ -18,7 +18,7 @@ banner_btn1.addEventListener('click', () => {
     banner.classList.add('background1');
 
 
-    banner_btn1.style.background = "rgb(55, 185, 43)";
+    banner_btn1.style.background = "rgb(202, 123, 20)";
     banner_btn2.style.background = "rgba(152, 152, 152)";
     banner_btn3.style.background = "rgba(152, 152, 152)";
 });
@@ -28,7 +28,7 @@ banner_btn2.addEventListener('click', () => {
     banner.classList.remove('background3');
     banner.classList.add('background2');
 
-    banner_btn2.style.background = "rgb(55, 185, 43)";
+    banner_btn2.style.background = "rgb(202, 123, 20)";
     banner_btn1.style.background = "rgba(152, 152, 152)";
     banner_btn3.style.background = "rgba(152, 152, 152)";
 });
@@ -40,7 +40,7 @@ banner_btn3.addEventListener('click', () => {
 
     banner_btn1.style.background = "rgba(152, 152, 152)";
     banner_btn2.style.background = "rgba(152, 152, 152)";
-    banner_btn3.style.background = "rgb(55, 185, 43)";
+    banner_btn3.style.background = "rgb(202, 123, 20)";
 });
 
 
