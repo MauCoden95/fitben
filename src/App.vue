@@ -5,6 +5,7 @@
   <AppImc></AppImc>
   <AppPrice basic=4500 pro=7000 ultimate=11000></AppPrice>
   <AppTrainers></AppTrainers>
+  <AppGallery></AppGallery>
   <AppNewsletter></AppNewsletter>
   <AppFooter></AppFooter>
 </template>
@@ -16,6 +17,7 @@ import AppAbout from './components/About.vue'
 import AppImc from './components/IMC.vue'
 import AppPrice from './components/Prices.vue'
 import AppTrainers from './components/Trainers.vue'
+import AppGallery from './components/Gallery.vue'
 import AppNewsletter from './components/Newsletter.vue'
 import AppFooter from './components/Footer.vue'
 
@@ -28,6 +30,7 @@ export default {
     AppImc,
     AppPrice,
     AppTrainers,
+    AppGallery,
     AppNewsletter,
     AppFooter
   }
@@ -71,4 +74,14 @@ export default {
   font-size: 4rem;
   color: #ffffff;
  }
+
+
+ @media (max-width: 1200px) {
+  html{
+   font-size: 45%;
+  } 
+ }
+
+
+ 
 </style>

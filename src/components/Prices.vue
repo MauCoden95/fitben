@@ -162,7 +162,7 @@ export default {
 
     .price-div-basic ul li .fa-times,
     .price-div-pro ul li .fa-times{
-        color: rgb(179, 11, 11);
+        color: rgb(211, 11, 11);
     }
 
     .price-btn{
@@ -190,4 +190,24 @@ export default {
         font-size: 2rem;
         transform: rotate(42deg);
     }
+
+
+
+
+
+
+    @media (max-width: 900px) {
+        #prices .center{
+            flex-wrap: wrap;
+        }
+
+        .price-div-basic,
+        .price-div-pro{
+            width: 40%;
+        }
+    }
+
+    
+
+    
 </style>
