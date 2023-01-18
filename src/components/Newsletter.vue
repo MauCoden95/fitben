@@ -23,7 +23,7 @@
 <style>
     #newsletter{
         width: 100%;
-        height: 30rem;
+        min-height: 30rem;
         background: rgba(39, 197, 18, 0.6);
         padding: 1px;
     }

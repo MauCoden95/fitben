@@ -157,7 +157,7 @@ export default {
 
     .price-div-basic ul li .fa-check,
     .price-div-pro ul li .fa-check{
-        color: #fcfcfc;
+        color: #12af0d;
     }
 
     .price-div-basic ul li .fa-times,
@@ -207,7 +207,18 @@ export default {
         }
     }
 
+    @media (max-width: 700px) {
+        .price-div-basic,
+        .price-div-pro{
+            width: 60%;
+        }
+    }
     
-
+    @media (max-width: 500px) {
+        .price-div-basic,
+        .price-div-pro{
+            width: 90%;
+        }
+    }
     
 </style>

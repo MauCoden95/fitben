@@ -72,7 +72,7 @@
     #trainers{
         width: 100%;
         height: 55rem;
-        background: #000;
+        background: rgb(0, 0, 0);
     }
 
    
@@ -89,7 +89,7 @@
 
     .trainers-div{
         width: 100%;
-        height: 35rem;
+        min-height: 35rem;
         margin-top: 3rem;
         display: flex;
         align-items: center;
@@ -98,14 +98,15 @@
 
     .trainer-card{
         position: relative;
-        width: 20%;
+        width: 25rem;
         height: 100%;
         background: #333;
         overflow: hidden;
+        margin: 1rem;
     }
 
     .trainer-card:hover .trainer-info{
-        top: 23rem;
+        top: 19rem;
     }
 
     .trainer-card img{
@@ -147,5 +148,32 @@
 
     .trainer-info div i:hover{
         color: var(--color-secundario);
+    }
+
+
+
+
+
+
+    @media (max-width: 850px) {
+        #trainers{
+            height: 85rem;
+        }
+
+        .trainers-div{
+            flex-wrap: wrap;
+        }
+
+    }
+
+    @media (max-width: 500px) {
+        #trainers{
+            height: 150rem;
+        }
+
+        .trainers-div{
+        justify-content: center;
+        }
+
     }
 </style>
