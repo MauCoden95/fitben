@@ -75,8 +75,11 @@ export default {
 
     .buttons-banner{
         position: absolute;
-        bottom: 3rem;
-        left: 45rem;
+        bottom: 0;
+        left: 0;
+        top: 80%;
+        right: 0;
+        margin: auto;
         width: 12rem;
         height: 5rem;
         display: flex;
