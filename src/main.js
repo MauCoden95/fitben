@@ -95,7 +95,7 @@ btn_imc.addEventListener('click', () =>{
 
 
 
-/*Gallery*/
+/*GALLERY*/
 var counter = 1;
 setInterval(function(){
     document.getElementById('radio' + counter).checked = true;
@@ -106,3 +106,17 @@ setInterval(function(){
     }
 }, 5000);
 
+
+
+
+
+
+
+/*HEADER RESPONSIVE*/
+const navbar_btn = document.querySelector('.navbar_btn');
+const navbar = document.querySelector('#navbar');
+
+
+navbar_btn.addEventListener('click', () => {
+    navbar.classList.toggle('navbar-none');
+})

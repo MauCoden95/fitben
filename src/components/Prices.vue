@@ -157,7 +157,7 @@ export default {
 
     .price-div-basic ul li .fa-check,
     .price-div-pro ul li .fa-check{
-        color: rgb(21, 156, 39);
+        color: #fcfcfc;
     }
 
     .price-div-basic ul li .fa-times,

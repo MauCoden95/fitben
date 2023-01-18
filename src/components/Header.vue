@@ -57,6 +57,12 @@ export default {
         height: 100%;
     }
 
+    .navbar-none{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+    }
+
+
+
     #navbar  ul{
         display: flex;
         align-items: center;
@@ -95,6 +101,7 @@ export default {
         font-size: 3rem;
         color: #fff;
         border-radius: .5rem;
+        border: none;
     }
 
 
@@ -116,17 +123,25 @@ export default {
             right: 0;
             background: rgb(43, 43, 43);
             z-index: 1000;
-            /* display: none; */
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         }
 
         #navbar  ul{
             flex-direction: column;
+            padding: 1rem;
         }
 
         #navbar  ul li{
             display: block;
             width: 100%;
             text-align: center;
+            font-size: 2rem;
+            background: #888;
+            margin: .5rem;
+        }
+
+         #navbar  ul li a{
+            font-size: 2rem;
         }
     }
 </style>

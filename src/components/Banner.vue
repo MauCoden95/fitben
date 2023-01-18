@@ -30,7 +30,7 @@ export default {
         width: 100%;
         height: 55rem;
         object-fit: cover;
-        background-size: 100%;
+        background-size: cover;
     }
 
     .background1{
