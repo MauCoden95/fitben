@@ -26,7 +26,7 @@
 <style>
     #imc{
         width: 100%;
-        height: 55rem;
+        min-height: 55rem;
         padding: 3rem;
     }
 
@@ -40,7 +40,6 @@
     .calc-imc{
         width: 40%;
         height: 100%;
-        
     }
 
     .calc-imc h2{
@@ -54,7 +53,7 @@
     .calc-imc form{
         width: 100%;
         height: 60%;
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
 
     .calc-imc form input{
@@ -86,7 +85,30 @@
 
     #imc img{
         width: 45%;
-        height: 100%;
-        
+        height: 100%;   
+    }
+
+
+
+
+
+
+
+    @media (max-width: 1023px) {
+        #imc .center{
+            flex-direction: column;
+        }
+
+
+        .calc-imc{
+            width: 60%;
+            height: 100%;
+        }
+
+
+        #imc img{
+            width: 70%; 
+        }
+
     }
 </style>

@@ -29,7 +29,7 @@
 <style>
     #about{
         width: 100%;
-        height: 55rem;
+        min-height: 55rem;
         background: #000000;
     }
 
@@ -37,6 +37,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+        padding: 1rem;
     }
 
     .about-img{
@@ -95,5 +96,30 @@
         text-align: justify;
         font-size: 2rem;
         color: #ffffff;
+    }
+
+
+
+
+
+
+
+    @media (max-width: 1023px) {
+        #about .center{
+            flex-direction: column;
+        }
+       
+       .about-img{
+            width: 70%;
+        }
+
+        .about-info{
+            width: 80%;
+            height: 80%;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
     }
 </style>
