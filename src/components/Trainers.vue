@@ -117,7 +117,7 @@
 
     .trainer-info{
         position: absolute;
-        top: 28rem;
+        top: 26rem;
         width: 100%;
         padding: 1rem;
         background: #444;
