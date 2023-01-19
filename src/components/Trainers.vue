@@ -100,7 +100,7 @@
         position: relative;
         width: 25rem;
         height: 100%;
-        background: #333;
+        background: rgb(0, 0, 0);
         overflow: hidden;
         margin: 1rem;
     }
@@ -136,7 +136,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        border-top: .1rem solid #fff;
+        border-top: .1rem solid #ffffff;
         margin-top: 1.5rem;
     }
 

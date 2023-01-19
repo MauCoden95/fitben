@@ -80,7 +80,7 @@
     }
 
     .footer-div h4{
-        color: rgb(0, 0, 0);
+        color: #fff;
         text-align: center;
         margin: 2rem 0;
         font-size: 2rem;
@@ -98,7 +98,7 @@
 
     .footer-div ul li{
         font-size: 1.5rem;
-        color: rgb(255, 250, 254);
+        color: #ffffff;
         list-style: none;
     }
 
@@ -148,5 +148,23 @@
         font-size: 2rem;
         line-height: 7rem;
         margin-top: 2rem;
+    }
+
+
+
+
+
+
+
+    @media (max-width: 1023px) {
+       #footer .center{
+            flex-direction: column;
+        }
+
+        .footer-div{
+            width: 70%;
+        }
+
+        
     }
 </style>

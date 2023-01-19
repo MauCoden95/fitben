@@ -3,7 +3,7 @@
   <AppBanner></AppBanner>
   <AppAbout></AppAbout>
   <AppImc></AppImc>
-  <AppPrice basic=4500 pro=7000 ultimate=11000></AppPrice>
+  <AppPrice basic=5000 pro=8000 ultimate=12000></AppPrice>
   <AppTrainers></AppTrainers>
   <AppGallery></AppGallery>
   <AppNewsletter></AppNewsletter>

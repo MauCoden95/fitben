@@ -112,6 +112,12 @@ setInterval(function(){
 
 
 
+
+
+
+
+
+
 /*HEADER RESPONSIVE*/
 const navbar_btn = document.querySelector('.navbar_btn');
 const navbar = document.querySelector('#navbar');

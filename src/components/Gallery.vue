@@ -1,8 +1,38 @@
 <template>
     <section id="gallery">
         <h2>Galería</h2>
-        <div class="center">            
-            <div class="slider">
+        <div class="center">      
+            <div id="carouselExampleSlidesOnly" class="carousel slide w-75" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../assets/img/Gallery1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/Gallery2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/Gallery3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/Gallery4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/Gallery5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/Gallery6.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/Gallery7.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/img/Gallery8.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+
+
+            <!-- <div class="slider">
                 <div class="slides">
                     <input type="radio" name="radio-btn" id="radio1">
                     <input type="radio" name="radio-btn" id="radio2">
@@ -40,7 +70,7 @@
                     <label for="radio3" class="manual-btn"></label>
                     <label for="radio4" class="manual-btn"></label>
                 </div>
-            </div>  
+            </div>   -->
         </div>
     </section>
 </template>
@@ -79,7 +109,7 @@ export default {
         padding: 5rem;
     }
 
-    .slider{
+    /* .slider{
         width: 80rem;
         height: 100%;
         border-radius: 1rem;
@@ -108,7 +138,7 @@ export default {
 
     .navigation-manual{
         position: absolute;
-        /* width: 62%; */
+        width: 62%;
         margin-top: -4rem;
         right: 43%;
         display: flex;
@@ -150,7 +180,7 @@ export default {
     .navigation-auto{
         position: absolute;
         display: flex;
-        /* width: 62%; */
+        width: 62%;
         right: 43%;
         justify-content: center;
         margin-top: 49.5rem;
@@ -181,5 +211,6 @@ export default {
 
     #radio4:checked ~ .navigation-auto .auto-btn4{
         background: var(--color);
-    }
+    } 
+    */
 </style>

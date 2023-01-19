@@ -52,7 +52,6 @@
     .about-img img{
         display: block;
         width: 90%;
-        height: 92%;
         z-index: 2;
     }
 
@@ -84,7 +83,7 @@
 
     .about-info h2{
         font-size: 3rem;
-        color: #ffffff;
+        color: #fff;
     }
 
     .about-info h3{
@@ -95,7 +94,7 @@
     .about-info p{
         text-align: justify;
         font-size: 2rem;
-        color: #ffffff;
+        color: #fff;
     }
 
 
@@ -110,11 +109,11 @@
         }
        
        .about-img{
-            width: 70%;
+            width: 50%;
         }
 
         .about-info{
-            width: 80%;
+            width: 100%;
             height: 80%;
             padding: 2rem;
             display: flex;
