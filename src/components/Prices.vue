@@ -79,10 +79,15 @@ export default {
     }
 
     #prices > h2{
+        width: 75%;
         text-align: center;
         font-size: 3rem;
         color: #fff;
-        margin-top: 2rem;
+        margin: 2rem auto;
+        border-top: .1rem dashed rgb(255, 255, 255);
+        border-bottom: .1rem dashed rgb(255, 255, 255);
+        padding: 1rem;
+        color: var(--color);
     }
 
     #prices > h3{

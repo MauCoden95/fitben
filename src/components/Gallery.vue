@@ -86,7 +86,7 @@ export default {
 <style>
     #gallery{
         width: 100%;
-        min-height: 55rem;
+        min-height: 40rem;
         background: rgb(0, 0, 0);
     }
 
@@ -106,7 +106,8 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 5rem;
+        margin-top: 5rem;
+        padding-bottom: 2rem;
     }
 
     /* .slider{
