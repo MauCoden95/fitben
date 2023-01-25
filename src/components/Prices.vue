@@ -6,7 +6,7 @@
         <div class="center">
             
 
-            <div class="price-div-basic">
+            <div class="price-div-basic" data-aos="flip-left">
                  <h2>Plan Basic</h2>
                  <h3>$ <span>{{ basic }}</span> / Mes</h3>
                  <ul>
@@ -21,7 +21,7 @@
                  <button class="price-btn">Elegir plan</button>
             </div>
 
-            <div class="price-div-pro">
+            <div class="price-div-pro" data-aos="flip-left">
                 <h2>Plan Pro</h2>
                  <h3>$ <span>{{ pro }}</span> / Mes</h3>
                  <ul>
@@ -41,7 +41,7 @@
             </div>
 
 
-             <div class="price-div-pro">
+             <div class="price-div-pro" data-aos="flip-left">
                 <h2>Plan Ultimate</h2>
                  <h3>$ <span>{{ ultimate }}</span> / Mes</h3>
                  <ul>

@@ -60,4 +60,8 @@
         margin: 2rem auto;
         cursor: pointer;
     }
+
+    #newsletter form button:hover{
+        background: var(--color);
+    }
 </style>

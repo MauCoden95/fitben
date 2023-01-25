@@ -1,6 +1,6 @@
 <template>
     <section id="about">
-        <div class="center">
+        <div class="center" data-aos="fade-up">
             <div class="about-img">
                 <img src="../assets/img/About-img.jpg" alt="">
                 <div class="about-box about-box-1"></div>
@@ -31,12 +31,15 @@
         width: 100%;
         min-height: 55rem;
         background: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #about .center{
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         padding: 1rem;
     }
 
@@ -51,7 +54,7 @@
 
     .about-img img{
         display: block;
-        width: 90%;
+        width: 60%;
         z-index: 2;
     }
 
@@ -64,13 +67,13 @@
     }
 
     .about-box-1{
-        top: 0;
-        left: 0;
+        top: -3%;
+        left: 16%;
     }
 
     .about-box-2{
-        bottom: 0;
-        right: 0;
+        bottom: -3%;
+        right: 16%;
     }
     .about-info{
         width: 60%;

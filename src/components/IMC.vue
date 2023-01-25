@@ -1,6 +1,6 @@
 <template>
     <section id="imc">
-        <div class="center">
+        <div class="center" data-aos="fade-left">
             <div class="calc-imc">
                 <h2>Calcule su IMC</h2>
                 <form action="" method="">

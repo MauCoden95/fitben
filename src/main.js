@@ -1,7 +1,14 @@
-import { createApp } from 'vue'
+import { createApp } from 'vue';
+import AOS from 'aos';
 import App from './App.vue'
+import "aos/dist/aos.css";
 
 createApp(App).mount('#app')
+
+AOS.init({
+    duration: 700
+});
+
 
 /*BANNER*/
 
@@ -94,17 +101,6 @@ btn_imc.addEventListener('click', () =>{
 
 
 
-
-/*GALLERY*/
-var counter = 1;
-setInterval(function(){
-    document.getElementById('radio' + counter).checked = true;
-    counter++;
-
-    if (counter > 4) {
-        counter = 1;
-    }
-}, 5000);
 
 
 
